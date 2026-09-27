@@ -510,3 +510,10 @@ Entries:
   id: 100046
   time: '2026-09-27T17:33:56.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/107
+- author: Gandalf2k15
+  changes:
+    - type: Add
+      message: Ported the fire sprites from TauCetiClassic
+  id: 100047
+  time: '2026-09-27T17:50:56.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/105
