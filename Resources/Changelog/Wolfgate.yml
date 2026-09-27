@@ -517,3 +517,12 @@ Entries:
   id: 100047
   time: '2026-09-27T17:50:56.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/105
+- author: Gandalf2k15
+  changes:
+    - type: Add
+      message: >-
+        You can now select your characters scream and laugh, ported from ye ole
+        skyrat! Check it under appearance!
+  id: 100048
+  time: '2026-09-27T17:52:18.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/106
