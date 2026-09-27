@@ -496,3 +496,10 @@ Entries:
   id: 100044
   time: '2026-09-27T01:49:08.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/100
+- author: Gandalf2k15
+  changes:
+    - type: Add
+      message: The admin outfit UI is now modernised.
+  id: 100045
+  time: '2026-09-27T02:44:37.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/103
