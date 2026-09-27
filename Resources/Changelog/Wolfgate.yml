@@ -503,3 +503,10 @@ Entries:
   id: 100045
   time: '2026-09-27T02:44:37.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/103
+- author: Balls2zawall
+  changes:
+    - type: Fix
+      message: Fixed the docking doors on the Dredger being backwards.
+  id: 100046
+  time: '2026-09-27T17:33:56.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/107
