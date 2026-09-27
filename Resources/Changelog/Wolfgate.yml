@@ -526,3 +526,17 @@ Entries:
   id: 100048
   time: '2026-09-27T17:52:18.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/106
+- author: Gandalf2k15
+  changes:
+    - type: Fix
+      message: >-
+        Cargo turn-in chutes no longer buy trade crates bought on the same
+        station, so the Caelestinus trade goods vendors can't be flipped at the
+        chute across the room. Haul them somewhere else.
+    - type: Fix
+      message: >-
+        Trade goods vendors no longer give out free crates when their eject wire
+        is pulsed or they are wrecked.
+  id: 100049
+  time: '2026-09-27T22:54:18.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/109
