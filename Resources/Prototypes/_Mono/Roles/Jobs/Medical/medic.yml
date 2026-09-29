@@ -45,3 +45,4 @@
     - RubberStampDoctor
     - BoxFolderMedicalDoctor
     - WFShipVoucherMedicalResponder # WOLFGATE(Shipyard): free Triage or Stubby
+    - EncryptionKeyService
