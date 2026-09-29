@@ -594,3 +594,10 @@ Entries:
   id: 100055
   time: '2026-09-29T05:29:14.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/113
+- author: Gandalf2k15
+  changes:
+    - type: Add
+      message: Ported RMC's roadmap and added our roadmap to it.
+  id: 100056
+  time: '2026-09-29T06:02:07.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/115
