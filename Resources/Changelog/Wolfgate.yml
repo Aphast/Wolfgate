@@ -576,3 +576,10 @@ Entries:
   id: 100053
   time: '2026-09-28T20:22:03.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/85
+- author: Gandalf2k15
+  changes:
+    - type: Add
+      message: Admins can now offer mobs to ghosts!
+  id: 100054
+  time: '2026-09-29T05:29:01.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/114
