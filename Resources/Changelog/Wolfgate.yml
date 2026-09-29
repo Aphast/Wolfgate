@@ -633,3 +633,13 @@ Entries:
   id: 100058
   time: '2026-09-29T17:53:01.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/119
+- author: Gandalf2k15
+  changes:
+    - type: Add
+      message: >-
+        You can now mis-match your appearance to unlock further(possibly
+        incompatible) appearance options(Starting with hair/beard being allowed
+        on ALL species with this toggled)
+  id: 100059
+  time: '2026-09-29T18:51:55.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/118
