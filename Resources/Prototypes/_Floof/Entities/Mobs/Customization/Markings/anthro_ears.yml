@@ -953,6 +953,7 @@
   - sprite: _Floof/Mobs/Customization/skyratears.rsi
     state: m_ears_faefox_tertiary
 
+# WOLFGATE(Species): ported from HardLight
 - type: marking
   id: EarsFaeFoxAlt
   bodyPart: HeadTop

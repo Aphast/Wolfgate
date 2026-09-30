@@ -23,9 +23,10 @@
     - sprite: _HL/Mobs/Customization/Generic/bonemask.rsi
       state: SocketsBonemask-marking-head
 
+# WOLFGATE(Species): ported from HardLight
 - type: marking
   id: Neckfur
-  bodyPart: Tail
+  bodyPart: Head # WOLFGATE(Species): HardLight put it on Tail, which draws over anatomy facing south
   markingCategory: Overlay
   sprites:
     - sprite: _HL/Mobs/Customization/Generic/neckfur.rsi
