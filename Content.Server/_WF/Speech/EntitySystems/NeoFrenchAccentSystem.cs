@@ -1,4 +1,3 @@
-// WOLFGATE:Customization
 using Content.Server.Speech.Components;
 using System.Text.RegularExpressions;
 

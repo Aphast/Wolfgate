@@ -370,7 +370,6 @@ clone.
 - [`Resources/Locale/en-US/markings/anthro.ftl`](../../../Resources/Locale/en-US/markings/anthro.ftl): ported from HardLight
 - [`Resources/Locale/en-US/markings/earrings.ftl`](../../../Resources/Locale/en-US/markings/earrings.ftl): ported from HardLight
 - [`Resources/Locale/en-US/markings/face.ftl`](../../../Resources/Locale/en-US/markings/face.ftl): ported from HardLight
-- [`Resources/Locale/en-US/traits/traits.ftl`](../../../Resources/Locale/en-US/traits/traits.ftl): Neofrench accent
 - [`Resources/Prototypes/_CD/Entities/Mobs/Customization/Markings/moth.yml`](../../../Resources/Prototypes/_CD/Entities/Mobs/Customization/Markings/moth.yml): ported from HardLight
 - [`Resources/Prototypes/_CD/Entities/Mobs/Customization/Markings/reptilian.yml`](../../../Resources/Prototypes/_CD/Entities/Mobs/Customization/Markings/reptilian.yml): ported from HardLight
 - [`Resources/Prototypes/_CD/Entities/Mobs/Customization/Markings/synthetic.yml`](../../../Resources/Prototypes/_CD/Entities/Mobs/Customization/Markings/synthetic.yml): ported from HardLight
@@ -580,7 +579,6 @@ clone.
 - [`Resources/Prototypes/_StarLight/Voice/speech_sounds.yml`](../../../Resources/Prototypes/_StarLight/Voice/speech_sounds.yml): ported from HardLight
 - [`Resources/Prototypes/_StarLight/Voice/speech_verbs.yml`](../../../Resources/Prototypes/_StarLight/Voice/speech_verbs.yml): ported from HardLight
 - [`Resources/Prototypes/_White/Entities/Mobs/Customization/Markings/reptilian.yml`](../../../Resources/Prototypes/_White/Entities/Mobs/Customization/Markings/reptilian.yml): added ProtoReptile
-- [`Resources/Prototypes/Accents/word_replacements.yml`](../../../Resources/Prototypes/Accents/word_replacements.yml): Neofrench accent
 - [`Resources/Prototypes/Body/Parts/skrell.yml`](../../../Resources/Prototypes/Body/Parts/skrell.yml): ported from HardLight (Skrell)
 - [`Resources/Prototypes/Body/Prototypes/skrell.yml`](../../../Resources/Prototypes/Body/Prototypes/skrell.yml): HardLight's OrganCrescentDummy placeholders are dropped
 - [`Resources/Prototypes/Entities/Mobs/Customization/Markings/arachnid.yml`](../../../Resources/Prototypes/Entities/Mobs/Customization/Markings/arachnid.yml): was [Arachnid]
@@ -638,9 +636,7 @@ clone.
   - ported from HardLight/Starlight
   - ported from HardLight
   - ported from HardLight/Impstation
-- [`Resources/Prototypes/Traits/speech.yml`](../../../Resources/Prototypes/Traits/speech.yml)
-  - Felionoids and ProtoFelines have it as their species accent
-  - Neofrench accent
+- [`Resources/Prototypes/Traits/speech.yml`](../../../Resources/Prototypes/Traits/speech.yml): Felionoids and ProtoFelines have it as their species accent
 - [`Resources/Prototypes/Voice/speech_emotes.yml`](../../../Resources/Prototypes/Voice/speech_emotes.yml): was the default scream action icon; this is the open-mouthed face
 - [`Resources/ServerInfo/_FarHorizons/Guidebook/Mobs/SubMobs/ProtoArachnid.xml`](../../../Resources/ServerInfo/_FarHorizons/Guidebook/Mobs/SubMobs/ProtoArachnid.xml): ported from HardLight
 - [`Resources/ServerInfo/_FarHorizons/Guidebook/Mobs/SubMobs/ProtoAvali.xml`](../../../Resources/ServerInfo/_FarHorizons/Guidebook/Mobs/SubMobs/ProtoAvali.xml): ported from HardLight
