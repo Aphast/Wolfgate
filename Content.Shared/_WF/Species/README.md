@@ -580,8 +580,8 @@ clone.
 - [`Resources/Prototypes/_StarLight/Voice/speech_sounds.yml`](../../../Resources/Prototypes/_StarLight/Voice/speech_sounds.yml): ported from HardLight
 - [`Resources/Prototypes/_StarLight/Voice/speech_verbs.yml`](../../../Resources/Prototypes/_StarLight/Voice/speech_verbs.yml): ported from HardLight
 - [`Resources/Prototypes/_White/Entities/Mobs/Customization/Markings/reptilian.yml`](../../../Resources/Prototypes/_White/Entities/Mobs/Customization/Markings/reptilian.yml): added ProtoReptile
-- [`Resources/Prototypes/Body/Parts/skrell.yml`](../../../Resources/Prototypes/Body/Parts/skrell.yml): ported from HardLight (Skrell)
 - [`Resources/Prototypes/Accents/word_replacements.yml`](../../../Resources/Prototypes/Accents/word_replacements.yml): Neofrench accent
+- [`Resources/Prototypes/Body/Parts/skrell.yml`](../../../Resources/Prototypes/Body/Parts/skrell.yml): ported from HardLight (Skrell)
 - [`Resources/Prototypes/Body/Prototypes/skrell.yml`](../../../Resources/Prototypes/Body/Prototypes/skrell.yml): HardLight's OrganCrescentDummy placeholders are dropped
 - [`Resources/Prototypes/Entities/Mobs/Customization/Markings/arachnid.yml`](../../../Resources/Prototypes/Entities/Mobs/Customization/Markings/arachnid.yml): was [Arachnid]
 - [`Resources/Prototypes/Entities/Mobs/Customization/Markings/diona.yml`](../../../Resources/Prototypes/Entities/Mobs/Customization/Markings/diona.yml): added ProtoDionae
