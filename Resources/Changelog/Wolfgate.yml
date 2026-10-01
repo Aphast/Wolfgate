@@ -687,3 +687,10 @@ Entries:
   id: 100063
   time: '2026-09-30T16:18:06.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/129
+- author: Gandalf2k15
+  changes:
+    - type: Tweak
+      message: Only insurgency will be available below 20 pop.
+  id: 100064
+  time: '2026-10-01T01:44:17.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/134
