@@ -1,14 +1,18 @@
-using Content.Server.Speech.Components;
+using Content.Server._WF.Speech.Components;
+using Content.Server.Speech;
+using Content.Server.Speech.EntitySystems;
+using Robust.Shared.Random;
 using System.Text.RegularExpressions;
 
-namespace Content.Server.Speech.EntitySystems;
+namespace Content.Server._WF.Speech.EntitySystems;
 
 /// <summary>
 /// System that gives the speaker an alternate faux-French accent.
 /// </summary>
-public sealed class NeoFrenchAccentSystem : EntitySystem
+public sealed partial class NeoFrenchAccentSystem : EntitySystem
 {
-    [Dependency] private readonly ReplacementAccentSystem _replacement = default!;
+    [Dependency] private IRobustRandom _random = default!;
+    [Dependency] private ReplacementAccentSystem _replacement = default!;
 
     private static readonly Regex RegexTh = new(@"th", RegexOptions.IgnoreCase);
     private static readonly Regex RegexSpacePunctuation = new(@"(?<=\w\w)[!?;:](?!\w)", RegexOptions.IgnoreCase);
@@ -32,12 +36,12 @@ public sealed class NeoFrenchAccentSystem : EntitySystem
     {
         var msg = message;
 
-        msg = _replacement.ApplyReplacements(msg, "neofrench");
+        msg = _replacement.ApplyReplacements(msg, "WFNeoFrench");
 
         // Replaces "th" with "'z" (65%) or "'d" (35%).
         msg = RegexTh.Replace(msg, match =>
         {
-            return Random.Shared.NextDouble() < 0.35 ? "'d" : "'z";
+            return _random.Prob(0.35f) ? "'d" : "'z";
         });
 
         // Converts "ch" to "sh"
@@ -55,7 +59,7 @@ public sealed class NeoFrenchAccentSystem : EntitySystem
         // Replaces other "s" with "z" at a low chance.
         msg = RegexS.Replace(msg, match =>
         {
-            return Random.Shared.NextDouble() < 0.15 ? "z" : match.Value;
+            return _random.Prob(0.15f) ? "z" : match.Value;
         });
 
         // Spaces out ! ? : and ;.
@@ -82,14 +86,14 @@ public sealed class NeoFrenchAccentSystem : EntitySystem
                 return match.Value;
             }
 
-            return Random.Shared.NextDouble() < 0.5 ? "rr" : "r";
+            return _random.Prob(0.5f) ? "rr" : "r";
         });
 
         // Randomly adds an initial "h" before vowels (20%).
         // Does not affect words beginning with "y".
         msg = RegexInitialVowel.Replace(msg, match =>
         {
-            return Random.Shared.NextDouble() < 0.2
+            return _random.Prob(0.2f)
                 ? "h" + match.Value
                 : match.Value;
         });

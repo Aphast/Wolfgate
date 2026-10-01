@@ -1,9 +1,9 @@
-using Content.Server.Speech.EntitySystems;
+using Content.Server._WF.Speech.EntitySystems;
 
-namespace Content.Server.Speech.Components;
+namespace Content.Server._WF.Speech.Components;
 
 /// <summary>
-/// Alternate French accent replaces spoken letters. "th" becomes "z" and "H" at the start of a word becomes "'".
+/// Gives the speaker a thick faux-French accent: French word replacements plus rewritten letters.
 /// </summary>
 [RegisterComponent]
 [Access(typeof(NeoFrenchAccentSystem))]

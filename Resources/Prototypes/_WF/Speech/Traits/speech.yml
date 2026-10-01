@@ -1,5 +1,5 @@
 - type: trait
-  id: NeoFrenchAccent
+  id: WFNeoFrenchAccent
   name: trait-neo-french-name
   description: trait-neo-french-desc
   category: SpeechTraits

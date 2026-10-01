@@ -1,5 +1,5 @@
 - type: accent
-  id: neofrench
+  id: WFNeoFrench
   wordReplacements:
     accent-neofrench-words-1: accent-neofrench-words-replace-1
     accent-neofrench-words-1-2: accent-neofrench-words-replace-1
