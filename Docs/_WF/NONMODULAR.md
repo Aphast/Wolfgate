@@ -67,7 +67,11 @@ Standalone edits outside `_WF` that serve no module: files with an untagged `WOL
 - [`Resources/Prototypes/_NF/Events/events.yml`](../../Resources/Prototypes/_NF/Events/events.yml)
   - gas leak event disabled
   - vent clog event disabled
-- [`Resources/ServerInfo/_Mono/Guidebook/Rules/Conflict/Four_PortStriking.xml`](../../Resources/ServerInfo/_Mono/Guidebook/Rules/Conflict/Four_PortStriking.xml): fixed broken link, was MonolithRuleRoleplayEightSafeZones
+- [`Resources/ServerInfo/_Mono/Guidebook/Rules/Conflict/Four_PortStriking.xml`](../../Resources/ServerInfo/_Mono/Guidebook/Rules/Conflict/Four_PortStriking.xml)
+  - fixed broken link, was MonolithRuleRoleplayEightSafeZones
+  - was color=blue, unreadable on the dark background
+  - was color=maroon, unreadable on the dark background
+- [`Resources/ServerInfo/_Mono/Guidebook/Rules/Conflict/One_RandomDeathmatch.xml`](../../Resources/ServerInfo/_Mono/Guidebook/Rules/Conflict/One_RandomDeathmatch.xml): was color=blue, unreadable on the dark background
 - [`Resources/ServerInfo/_Mono/Guidebook/Rules/MonolithRuleset.xml`](../../Resources/ServerInfo/_Mono/Guidebook/Rules/MonolithRuleset.xml)
   - was "# Monolith Rules"
   - Wolfgate branding foreword
