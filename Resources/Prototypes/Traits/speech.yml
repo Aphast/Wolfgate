@@ -74,17 +74,6 @@
   components:
   - type: FrenchAccent
 
-# WOLFGATE(Speech) START: Neofrench accent
-- type: trait
-  id: NeoFrenchAccent
-  name: trait-neo-french-name
-  description: trait-neo-french-desc
-  category: SpeechTraits
-  cost: 1
-  components:
-  - type: NeoFrenchAccent
-# WOLFGATE END
-
 - type: trait
   id: SpanishAccent
   name: trait-spanish-name

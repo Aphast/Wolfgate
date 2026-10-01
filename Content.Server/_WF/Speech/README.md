@@ -12,14 +12,18 @@ This module contains components and edits nessecary for the neofrench accent.
 - [`Content.Server/_WF/Speech/Components/NeoFrenchAccentComponent.cs`](Components/NeoFrenchAccentComponent.cs)
 - [`Content.Server/_WF/Speech/EntitySystems/NeoFrenchAccentSystem.cs`](EntitySystems/NeoFrenchAccentSystem.cs)
 
+### Prototypes
+
+- [`Resources/Prototypes/_WF/Speech/Accents/word_replacements.yml`](../../../Resources/Prototypes/_WF/Speech/Accents/word_replacements.yml)
+- [`Resources/Prototypes/_WF/Speech/Traits/speech.yml`](../../../Resources/Prototypes/_WF/Speech/Traits/speech.yml)
+
 ### Localization
 
 - [`Resources/Locale/en-US/_WF/Speech/neofrench.ftl`](../../../Resources/Locale/en-US/_WF/Speech/neofrench.ftl)
+- [`Resources/Locale/en-US/_WF/Speech/traits.ftl`](../../../Resources/Locale/en-US/_WF/Speech/traits.ftl)
 
 ## Non-modular edits
 
-- [`Resources/Locale/en-US/traits/traits.ftl`](../../../Resources/Locale/en-US/traits/traits.ftl): Neofrench accent
-- [`Resources/Prototypes/Accents/word_replacements.yml`](../../../Resources/Prototypes/Accents/word_replacements.yml): Neofrench accent
-- [`Resources/Prototypes/Traits/speech.yml`](../../../Resources/Prototypes/Traits/speech.yml): Neofrench accent
+None.
 
 <!-- WOLFGATE-GENERATED END -->
