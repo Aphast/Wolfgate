@@ -705,3 +705,10 @@ Entries:
   id: 100065
   time: '2026-10-01T01:50:34.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/131
+- author: Gandalf2k15
+  changes:
+    - type: Fix
+      message: Borers no longer take control of their host when removed.
+  id: 100066
+  time: '2026-10-01T01:50:49.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/133
