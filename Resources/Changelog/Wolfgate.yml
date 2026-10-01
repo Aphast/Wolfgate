@@ -712,3 +712,10 @@ Entries:
   id: 100066
   time: '2026-10-01T01:50:49.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/133
+- author: Gandalf2k15
+  changes:
+    - type: Tweak
+      message: Engine version bumped to 277.2.1
+  id: 100067
+  time: '2026-10-01T02:10:31.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/116
