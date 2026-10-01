@@ -174,6 +174,7 @@ explicit clothing layers pick their species states so Avali wear Avali hardsuits
 - [`Resources/Locale/en-US/markings/anthro.ftl`](../../../Resources/Locale/en-US/markings/anthro.ftl): ported from HardLight
 - [`Resources/Locale/en-US/markings/earrings.ftl`](../../../Resources/Locale/en-US/markings/earrings.ftl): ported from HardLight
 - [`Resources/Locale/en-US/markings/face.ftl`](../../../Resources/Locale/en-US/markings/face.ftl): ported from HardLight
+- [`Resources/Locale/en-US/traits/traits.ftl`](../../../Resources/Locale/en-US/traits/traits.ftl): Neofrench accent
 - [`Resources/Prototypes/_CD/Entities/Mobs/Customization/Markings/moth.yml`](../../../Resources/Prototypes/_CD/Entities/Mobs/Customization/Markings/moth.yml): ported from HardLight
 - [`Resources/Prototypes/_CD/Entities/Mobs/Customization/Markings/reptilian.yml`](../../../Resources/Prototypes/_CD/Entities/Mobs/Customization/Markings/reptilian.yml): ported from HardLight
 - [`Resources/Prototypes/_CD/Entities/Mobs/Customization/Markings/synthetic.yml`](../../../Resources/Prototypes/_CD/Entities/Mobs/Customization/Markings/synthetic.yml): ported from HardLight
@@ -327,6 +328,7 @@ explicit clothing layers pick their species states so Avali wear Avali hardsuits
 - [`Resources/Prototypes/_StarLight/Voice/speech_sounds.yml`](../../../Resources/Prototypes/_StarLight/Voice/speech_sounds.yml): ported from HardLight
 - [`Resources/Prototypes/_StarLight/Voice/speech_verbs.yml`](../../../Resources/Prototypes/_StarLight/Voice/speech_verbs.yml): ported from HardLight
 - [`Resources/Prototypes/_White/Entities/Mobs/Customization/Markings/reptilian.yml`](../../../Resources/Prototypes/_White/Entities/Mobs/Customization/Markings/reptilian.yml): added ProtoReptile
+- [`Resources/Prototypes/Accents/word_replacements.yml`](../../../Resources/Prototypes/Accents/word_replacements.yml): Neofrench accent
 - [`Resources/Prototypes/Body/Prototypes/skrell.yml`](../../../Resources/Prototypes/Body/Prototypes/skrell.yml): HardLight's OrganCrescentDummy placeholders are dropped
 - [`Resources/Prototypes/Entities/Mobs/Customization/Markings/arachnid.yml`](../../../Resources/Prototypes/Entities/Mobs/Customization/Markings/arachnid.yml): was [Arachnid]
 - [`Resources/Prototypes/Entities/Mobs/Customization/Markings/diona.yml`](../../../Resources/Prototypes/Entities/Mobs/Customization/Markings/diona.yml): added ProtoDionae
@@ -379,7 +381,9 @@ explicit clothing layers pick their species states so Avali wear Avali hardsuits
   - ported from HardLight/Starlight
   - ported from HardLight
   - ported from HardLight/Impstation
-- [`Resources/Prototypes/Traits/speech.yml`](../../../Resources/Prototypes/Traits/speech.yml): Felionoids and ProtoFelines have it as their species accent
+- [`Resources/Prototypes/Traits/speech.yml`](../../../Resources/Prototypes/Traits/speech.yml)
+  - Felionoids and ProtoFelines have it as their species accent
+  - Neofrench accent
 - [`Resources/Prototypes/Voice/speech_emotes.yml`](../../../Resources/Prototypes/Voice/speech_emotes.yml): was the default scream action icon; this is the open-mouthed face
 - [`Resources/Textures/_EE/Mobs/Customization/Harpy/harpy_wings.rsi/`](../../../Resources/Textures/_EE/Mobs/Customization/Harpy/harpy_wings.rsi/): whitescale_harpy_folded2 state added (meta.json re-serialised).
 - [`Resources/Textures/_Mono/Mobs/Species/Protogen/organs.rsi/`](../../../Resources/Textures/_Mono/Mobs/Species/Protogen/organs.rsi/): tongueforked state added (meta.json re-serialised).
