@@ -95,6 +95,7 @@ public sealed partial class ResizableChatBox : ChatBox
 
         private DragMode GetDragModeFor(Vector2 relativeMousePos)
         {
+            if (WfCockpitDocked) return DragMode.None; // WOLFGATE(Cockpit): the cockpit controls chat sizing.
             // WOLFGATE(ChatTabs): the input line left behind by a popped-out log can't be resized
             if (WfLogPoppedOut)
                 return DragMode.None;
@@ -198,6 +199,7 @@ public sealed partial class ResizableChatBox : ChatBox
 
         private void ClampSize(float? desiredLeft = null, float? desiredBottom = null)
         {
+            if (WfCockpitDocked) return; // WOLFGATE(Cockpit): preserve the normal chat margins while docked.
             if (Parent == null)
                 return;
 
