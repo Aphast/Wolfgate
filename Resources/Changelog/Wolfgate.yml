@@ -1487,3 +1487,32 @@ Entries:
   id: 100114
   time: '2026-10-11T09:37:07.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/217
+- author: Gandalf2k15
+  changes:
+    - type: Add
+      message: Cockpit view and refactored gunnery and pilot controls.
+    - type: Add
+      message: Auto flare dispense system.
+    - type: Add
+      message: Gun grouping system.
+    - type: Add
+      message: Hull and fuel gauges for ships.
+    - type: Add
+      message: Ship PA playlist, queue up songs!
+    - type: Add
+      message: The FTL page now warns you when the ship has no FTL drive.
+    - type: Tweak
+      message: >-
+        Flare launchers are fired with DISPENSE or AUTO instead of being aimed
+        from the weapon list.
+    - type: Tweak
+      message: Flares can now pull a missile lock off your ship.
+    - type: Tweak
+      message: The external pilot view pans with right mouse.
+    - type: Tweak
+      message: Retro is now the default UI style.
+    - type: Tweak
+      message: The autopilot warning is quieter.
+  id: 100115
+  time: '2026-10-11T10:10:53.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/202
