@@ -1445,3 +1445,14 @@ Entries:
   id: 100110
   time: '2026-10-11T06:14:38.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/213
+- author: Gandalf2k15
+  changes:
+    - type: Fix
+      message: NPC's no longer show on the crew monitor
+    - type: Tweak
+      message: NPC friendly fire is more lenient
+    - type: Tweak
+      message: NPC Combat zones are now merged
+  id: 100111
+  time: '2026-10-11T08:16:06.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/209
