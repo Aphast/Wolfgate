@@ -1480,3 +1480,10 @@ Entries:
   id: 100113
   time: '2026-10-11T09:28:23.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/216
+- author: Gandalf2k15
+  changes:
+    - type: Fix
+      message: You can finally bind middle click to things.
+  id: 100114
+  time: '2026-10-11T09:37:07.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/217
