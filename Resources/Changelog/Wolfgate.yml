@@ -1438,3 +1438,10 @@ Entries:
   id: 100109
   time: '2026-10-11T00:25:49.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/210
+- author: Gandalf2k15
+  changes:
+    - type: Add
+      message: Drone zones are now visibly marked on the mass scanner.
+  id: 100110
+  time: '2026-10-11T06:14:38.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/213
