@@ -1588,3 +1588,10 @@ Entries:
   id: 100123
   time: '2026-10-12T20:14:30.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/220
+- author: Gandalf2k15
+  changes:
+    - type: Fix
+      message: Doppler shifting no longer applies to looping sounds.
+  id: 100124
+  time: '2026-10-12T22:44:19.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/230
