@@ -1569,3 +1569,22 @@ Entries:
   id: 100122
   time: '2026-10-12T07:36:19.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/227
+- author: Happyowl93
+  changes:
+    - type: Tweak
+      message: several balance changes to factions
+    - type: Tweak
+      message: thrusters buffed some again
+    - type: Add
+      message: >-
+        adamantite plastitanium wall for PDV, all their ships retroactively
+        refitted with it.
+    - type: Tweak
+      message: armored hardpoints now protect from all damage types
+    - type: Tweak
+      message: >-
+        TSF now receives the report for a smuggling drop several minutes later
+        than before on average
+  id: 100123
+  time: '2026-10-12T20:14:30.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/220
