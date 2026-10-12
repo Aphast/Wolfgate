@@ -1560,3 +1560,12 @@ Entries:
   id: 100121
   time: '2026-10-12T04:26:10.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/226
+- author: Gandalf2k15
+  changes:
+    - type: Add
+      message: >-
+        Ship hailing! this should be your go-to for talking to a ship you wish
+        to escelate with.
+  id: 100122
+  time: '2026-10-12T07:36:19.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/227
