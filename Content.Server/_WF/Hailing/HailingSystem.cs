@@ -28,7 +28,7 @@ namespace Content.Server._WF.Hailing;
 /// Ship-to-ship hailing from the shuttle console. One ship rings another's consoles and pages its PA, and
 /// whoever answers gets the caller on a screen with a chat line between the two helms.
 /// </summary>
-public sealed class HailingSystem : EntitySystem
+public sealed partial class HailingSystem : EntitySystem
 {
     [Dependency] private IGameTiming _timing = default!;
     [Dependency] private IConfigurationManager _cfg = default!;
@@ -95,6 +95,8 @@ public sealed class HailingSystem : EntitySystem
         Subs.CVar(_cfg, HailingCVars.Range, value => _range = value, true);
         Subs.CVar(_cfg, HailingCVars.RingTimeout, value => _ringTimeout = value, true);
         Subs.CVar(_cfg, HailingCVars.RetryDelay, value => _retryDelay = value, true);
+
+        InitializeServices();
 
         SubscribeLocalEvent<HailConsoleComponent, ComponentShutdown>(OnShutdown);
 
@@ -207,6 +209,8 @@ public sealed class HailingSystem : EntitySystem
         }
 
         _ending.Clear();
+
+        UpdateRelays();
 
         if (!check)
             return;
@@ -875,6 +879,9 @@ public sealed class HailingSystem : EntitySystem
 
     private void Remove(EntityUid console, HailConsoleComponent hail, HailEndReason? reason)
     {
+        if (TryComp<HailRelayComponent>(console, out var relay))
+            CloseRelays((console, relay));
+
         if (hail.State == HailState.Calling)
         {
             var delay = reason is HailEndReason.Declined or HailEndReason.NoAnswer
@@ -1055,7 +1062,7 @@ public sealed class HailingSystem : EntitySystem
     /// <summary>
     /// A ship's name as a console's radar would give it, so a ship running dark stays unnamed.
     /// </summary>
-    private string ShipLabel(EntityUid console, EntityUid ship)
+    public string ShipLabel(EntityUid console, EntityUid ship)
     {
         // Radar never names a ship that hides its label, however close it is.
         if (TryComp<IFFComponent>(ship, out var iff) &&
