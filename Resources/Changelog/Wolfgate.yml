@@ -1622,3 +1622,14 @@ Entries:
   id: 100127
   time: '2026-10-13T02:41:10.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/234
+- author: Gandalf2k15
+  changes:
+    - type: Add
+      message: Extortion encounters!
+    - type: Add
+      message: NPC hailing.
+    - type: Add
+      message: NPC fugitives, kill em for a reward.
+  id: 100128
+  time: '2026-10-13T03:25:51.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/233
