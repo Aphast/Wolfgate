@@ -1057,16 +1057,11 @@ public sealed class HailingSystem : EntitySystem
     /// </summary>
     private string ShipLabel(EntityUid console, EntityUid ship)
     {
-        if (TryComp<IFFComponent>(ship, out var iff))
+        // Radar never names a ship that hides its label, however close it is.
+        if (TryComp<IFFComponent>(ship, out var iff) &&
+            (iff.Flags & (IFFFlags.HideLabel | IFFFlags.HideLabelAlways)) != 0)
         {
-            if ((iff.Flags & IFFFlags.HideLabelAlways) != 0)
-                return Loc.GetString("hail-unknown-vessel");
-
-            if ((iff.Flags & IFFFlags.HideLabel) != 0 &&
-                _detection.IsGridDetected(ship, console) != DetectionLevel.Detected)
-            {
-                return Loc.GetString("hail-unknown-vessel");
-            }
+            return Loc.GetString("hail-unknown-vessel");
         }
 
         var name = Name(ship);
