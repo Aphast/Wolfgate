@@ -1633,3 +1633,14 @@ Entries:
   id: 100128
   time: '2026-10-13T03:25:51.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/233
+- author: Happyowl93
+  changes:
+    - type: Add
+      message: >-
+        Adds a proper shipyard POI to repair your ships and a machine that does
+        the same job if fitted into a ship.
+    - type: Tweak
+      message: TSF vouchers are now single use.
+  id: 100129
+  time: '2026-10-13T04:50:41.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/229
