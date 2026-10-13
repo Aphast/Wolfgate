@@ -1606,3 +1606,12 @@ Entries:
   id: 100125
   time: '2026-10-12T23:25:24.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/215
+- author: Gandalf2k15
+  changes:
+    - type: Add
+      message: Wolfgate settings now show up in the wolfgate tab.
+    - type: Fix
+      message: Cockpit UI now saves states
+  id: 100126
+  time: '2026-10-13T01:08:38.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/232
