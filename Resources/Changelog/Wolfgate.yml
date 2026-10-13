@@ -1615,3 +1615,10 @@ Entries:
   id: 100126
   time: '2026-10-13T01:08:38.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/232
+- author: Happyowl93
+  changes:
+    - type: Fix
+      message: mapping tools no longer give an error when pasting conveyors.
+  id: 100127
+  time: '2026-10-13T02:41:10.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/234
