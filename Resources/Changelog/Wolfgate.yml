@@ -1690,3 +1690,10 @@ Entries:
   id: 100135
   time: '2026-10-14T21:17:02.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/242
+- author: Gandalf2k15
+  changes:
+    - type: Fix
+      message: Chat should no longer break randomly while in cockpit view. Mk.2
+  id: 100136
+  time: '2026-10-14T21:46:45.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/244
