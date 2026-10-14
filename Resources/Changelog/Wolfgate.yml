@@ -1644,3 +1644,10 @@ Entries:
   id: 100129
   time: '2026-10-13T04:50:41.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/229
+- author: Gandalf2k15
+  changes:
+    - type: Add
+      message: A whole bunch of vehicles and tanks have been ported from RMC/CMU.
+  id: 100130
+  time: '2026-10-14T01:15:10.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/235
