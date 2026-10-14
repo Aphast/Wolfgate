@@ -1651,3 +1651,10 @@ Entries:
   id: 100130
   time: '2026-10-14T01:15:10.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/235
+- author: Gandalf2k15
+  changes:
+    - type: Fix
+      message: IPC's have been mostly fixed! Markings and such will work again.
+  id: 100131
+  time: '2026-10-14T01:36:31.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/238
