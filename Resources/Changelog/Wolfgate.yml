@@ -1683,3 +1683,10 @@ Entries:
   id: 100134
   time: '2026-10-14T20:55:05.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/241
+- author: Gandalf2k15
+  changes:
+    - type: Fix
+      message: Species languages are now readable
+  id: 100135
+  time: '2026-10-14T21:17:02.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/242
