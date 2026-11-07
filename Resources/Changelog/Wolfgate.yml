@@ -6132,3 +6132,12 @@ Entries:
   id: 100377
   time: '2026-11-07T03:25:48.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/524
+- author: Gandalf2k15
+  changes:
+    - type: Tweak
+      message: >-
+        Automated tests now run on five runners instead of four, so checks
+        finish sooner.
+  id: 100378
+  time: '2026-11-07T03:50:05.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/534
