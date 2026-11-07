@@ -6141,3 +6141,42 @@ Entries:
   id: 100378
   time: '2026-11-07T03:50:05.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/534
+- author: Gandalf2k15
+  changes:
+    - type: Fix
+      message: Planet comms no longer drop while nobody is near the comms outpost.
+    - type: Fix
+      message: >-
+        Vinyl players, station radio servers and rigs, autodocs and slime
+        grinders can be built again; the frame takes their manipulators.
+    - type: Fix
+      message: >-
+        Flight consoles and other consoles with locked key slots can be
+        deconstructed.
+    - type: Fix
+      message: You can lie down on a deck with no gravity, so surgery works there.
+    - type: Fix
+      message: >-
+        Finishing a supply contract no longer takes whoever was shut in the
+        crate with it.
+    - type: Fix
+      message: Escort contracts pay out once the ship docks at its destination.
+    - type: Fix
+      message: Company members taking a station job keep the station's job icon.
+    - type: Add
+      message: Kidneys can be removed and replaced in surgery, like the other organs.
+    - type: Add
+      message: Cargo sells brute and burn treatment kit crates again.
+    - type: Tweak
+      message: >-
+        Ship crews taking paramedic, doctor, engineer and the other standard
+        jobs get the survival box, hardsuits and HUD glasses contractors do.
+    - type: Tweak
+      message: Caelestinus janitors are paid.
+    - type: Fix
+      message: The antique necklace's description is whole.
+    - type: Tweak
+      message: The forge says what it smelts and that the metal goes to its stock.
+  id: 100379
+  time: '2026-11-07T03:59:45.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/531
