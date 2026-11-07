@@ -6098,3 +6098,10 @@ Entries:
   id: 100373
   time: '2026-11-06T22:30:49.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/523
+- author: Toriate
+  changes:
+    - type: Add
+      message: New sprites for the Lawbringer
+  id: 100374
+  time: '2026-11-07T01:21:54.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/522
