@@ -6105,3 +6105,14 @@ Entries:
   id: 100374
   time: '2026-11-07T01:21:54.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/522
+- author: Happyowl93
+  changes:
+    - type: Add
+      message: >-
+        Added the Hemophagia and Hemophagia (Masquerade) quirks. A tumor
+        replaces your heart, and you live on blood drunk or drained from others.
+    - type: Add
+      message: Added blood dishes, the Bloodshot cocktail and a taste suppressor.
+  id: 100375
+  time: '2026-11-07T01:36:07.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/529
