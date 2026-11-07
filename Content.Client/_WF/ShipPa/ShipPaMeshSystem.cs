@@ -5,6 +5,7 @@ using Robust.Client.Audio;
 using Robust.Client.Graphics;
 using Robust.Client.Replays.Playback;
 using Robust.Client.Player;
+using Robust.Shared.Configuration;
 using Robust.Shared.Map;
 using Robust.Client.ResourceManagement;
 using Robust.Client.UserInterface;
@@ -36,7 +37,9 @@ public sealed partial class ShipPaMeshSystem : EntitySystem
 
     [Dependency] private IPlayerManager _players = default!;
     [Dependency] private SharedMapSystem _maps = default!;
+    [Dependency] private IConfigurationManager _cfg = default!;
 
+    private float _personalVolume = 1f;
     private EntityUid? _subtitleGrid;
     private readonly List<Voice> _voices = new();
     private readonly HashSet<string> _released = new();
@@ -66,6 +69,7 @@ public sealed partial class ShipPaMeshSystem : EntitySystem
     {
         base.Initialize();
         UpdatesAfter.Add(typeof(AudioSystem));
+        Subs.CVar(_cfg, ShipPaCVars.Volume, value => _personalVolume = Math.Clamp(value, ShipPaCVars.MinVolume, 1f), true);
     }
 
     public override void Shutdown()
@@ -368,7 +372,7 @@ public sealed partial class ShipPaMeshSystem : EntitySystem
         // Extra edge fade prevents crossing the hard MaxDistance boundary at nonzero gain.
         var edge = Math.Clamp((speaker.Range - distance) / 2f, 0f, 1f);
         audio.Gain = SharedAudioSystem.VolumeToGain(voice.Broadcast.Params.Volume + speaker.Volume - 6f * speaker.Distortion)
-                     * voice.Fade * edge * flutter * ShipVolume(xform.GridUid);
+                     * voice.Fade * edge * flutter * ShipVolume(xform.GridUid) * _personalVolume;
 
         if (_timing.CurTime < voice.Broadcast.Start)
         {
